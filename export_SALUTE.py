@@ -6,9 +6,9 @@ import sqlite3
 from datetime import date
 
 # Connect to SQLite database
-conn = sqlite3.connect('activities.db')
+conn = sqlite3.connect('SALUTE_REPORTS.db')
 
-st.title("Activity Query")
+st.title("SALUTE REPORTS Query")
 
 # User input for date range
 start_date = st.date_input("Start date", date.today())
