@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # Connect to SQLite database
-conn = sqlite3.connect('activities.db')
+conn = sqlite3.connect('SALUTE_REPORTS.db')
 c = conn.cursor()
 
 # Create table if it doesn't exist
